@@ -20,13 +20,50 @@ namespace DocumentWorker
             base.EditDocument();
         }
 
-        public override void SaveDocument()
+        public override  void SaveDocument()
         {
             string currentExtension = System.IO.Path.GetExtension(Path);
             Console.WriteLine($"past file extension is {currentExtension}");
-            string newExtension = System.IO.Path.ChangeExtension(Path, Extension);
+            string newPath = System.IO.Path.ChangeExtension(Path, Extension);
+            using (StreamWriter sw = new StreamWriter(newPath))
+            {
+              sw.WriteLine(Line);
+            }
             Console.WriteLine("Документ збережений в новому форматі");
+            string newExtension = System.IO.Path.GetExtension(newPath);
             Console.WriteLine($"Current file extension is {newExtension}");
         }
     }
 }
+
+/*
+ using (var salsa = new Salsa20.Salsa20())
+            {
+                using (var fstream_out = new FileStream(filePath, FileMode.Truncate, FileAccess.ReadWrite, FileShare.Write))
+                {
+                    salsa.Key = key;
+                    salsa.IV = iv;
+                    using (var cstream = new CryptoStream(fstream_out, salsa.CreateEncryptor(), CryptoStreamMode.Write))
+                    {
+                        var bytes = File.ReadAllBytes(filePath);
+                        cstream.Write(bytes, 0, bytes.Lenght);
+                    }
+                }
+            } 
+ */
+
+/*
+ var bytes = File.ReadAllBytes(filePath);
+using (var salsa = new Salsa20.Salsa20())
+{
+    using (var fstream_out = new FileStream(filePath, FileMode.Truncate, FileAccess.Write))
+    {
+        salsa.Key = key;
+        salsa.IV = iv;
+        using (var cstream = new CryptoStream(fstream_out, salsa.CreateEncryptor(), CryptoStreamMode.Write))
+        {
+            cstream.Write(bytes, 0, bytes.Lenght);
+        }
+    }
+}
+ */
