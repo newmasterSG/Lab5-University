@@ -17,6 +17,7 @@ namespace ClassRoom
             pupils.Add(badPupil2);
             pupils.Add(badPupil1);
             ClassRoom classRoom = new ClassRoom(pupils);
+            classRoom.InfoAboutClassRoom();
         }
     }
 }
