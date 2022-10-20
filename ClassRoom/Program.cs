@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ClassRoom
 {
@@ -10,8 +11,12 @@ namespace ClassRoom
             BadPupil badPupil1 = new BadPupil();
             BadPupil badPupil2 = new BadPupil();
             GoodPupil goodPupil = new GoodPupil();
-            ClassRoom classRoom = new ClassRoom(excelentPupil,badPupil2,badPupil2,goodPupil);
-
+            List<Pupil> pupils = new List<Pupil>();
+            pupils.Add(goodPupil);
+            pupils.Add(excelentPupil);
+            pupils.Add(badPupil2);
+            pupils.Add(badPupil1);
+            ClassRoom classRoom = new ClassRoom(pupils);
         }
     }
 }
