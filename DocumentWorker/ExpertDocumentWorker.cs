@@ -25,9 +25,13 @@ namespace DocumentWorker
             string currentExtension = System.IO.Path.GetExtension(Path);
             Console.WriteLine($"past file extension is {currentExtension}");
             string newPath = System.IO.Path.ChangeExtension(Path, Extension);
-            using (StreamWriter sw = new StreamWriter(newPath))
+            using (StreamReader streamReader = new StreamReader(Path))
             {
-              sw.WriteLine(Line);
+                string text = streamReader.ReadToEnd();
+                using (StreamWriter sw = new StreamWriter(newPath))
+                {
+                    sw.WriteLine(text);
+                }
             }
             Console.WriteLine("Документ збережений в новому форматі");
             string newExtension = System.IO.Path.GetExtension(newPath);

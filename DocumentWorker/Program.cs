@@ -42,6 +42,19 @@ namespace DocumentWorker
                         expertDocumentWorker.OpenDocument();
                         expertDocumentWorker.EditDocument();
                         expertDocumentWorker.SaveDocument();
+                        if(File.Exists(path))
+                        {
+                            Console.WriteLine("if you wanna you can delete file");
+                            string askingAboutDelet = Console.ReadLine();
+                            if(askingAboutDelet.ToLower() == "yes")
+                            {
+                                File.Delete(path);
+                            }
+                            else
+                            {
+                                Console.WriteLine($"File is not deleted");
+                            }
+                        }
                         break;
                     }
                 default:
