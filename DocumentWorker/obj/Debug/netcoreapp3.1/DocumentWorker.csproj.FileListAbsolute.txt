@@ -1,0 +1,14 @@
+E:\University\Laboratory5OOP\DocumentWorker\bin\Debug\netcoreapp3.1\DocumentWorker.exe
+E:\University\Laboratory5OOP\DocumentWorker\bin\Debug\netcoreapp3.1\DocumentWorker.deps.json
+E:\University\Laboratory5OOP\DocumentWorker\bin\Debug\netcoreapp3.1\DocumentWorker.runtimeconfig.json
+E:\University\Laboratory5OOP\DocumentWorker\bin\Debug\netcoreapp3.1\DocumentWorker.runtimeconfig.dev.json
+E:\University\Laboratory5OOP\DocumentWorker\bin\Debug\netcoreapp3.1\DocumentWorker.dll
+E:\University\Laboratory5OOP\DocumentWorker\bin\Debug\netcoreapp3.1\DocumentWorker.pdb
+E:\University\Laboratory5OOP\DocumentWorker\obj\Debug\netcoreapp3.1\DocumentWorker.csproj.AssemblyReference.cache
+E:\University\Laboratory5OOP\DocumentWorker\obj\Debug\netcoreapp3.1\DocumentWorker.GeneratedMSBuildEditorConfig.editorconfig
+E:\University\Laboratory5OOP\DocumentWorker\obj\Debug\netcoreapp3.1\DocumentWorker.AssemblyInfoInputs.cache
+E:\University\Laboratory5OOP\DocumentWorker\obj\Debug\netcoreapp3.1\DocumentWorker.AssemblyInfo.cs
+E:\University\Laboratory5OOP\DocumentWorker\obj\Debug\netcoreapp3.1\DocumentWorker.csproj.CoreCompileInputs.cache
+E:\University\Laboratory5OOP\DocumentWorker\obj\Debug\netcoreapp3.1\DocumentWorker.dll
+E:\University\Laboratory5OOP\DocumentWorker\obj\Debug\netcoreapp3.1\DocumentWorker.pdb
+E:\University\Laboratory5OOP\DocumentWorker\obj\Debug\netcoreapp3.1\DocumentWorker.genruntimeconfig.cache

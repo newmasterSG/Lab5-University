@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printer", "Printer\Printer.csproj", "{4221B4C0-C2A6-4AB2-8B4B-7E5A9F50946A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassRoom", "ClassRoom\ClassRoom.csproj", "{8D73E1D3-FD42-4734-BEA2-48AB59A03F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentWorker", "DocumentWorker\DocumentWorker.csproj", "{43642B84-1040-4BB7-B950-CD911E5D3118}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4221B4C0-C2A6-4AB2-8B4B-7E5A9F50946A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4221B4C0-C2A6-4AB2-8B4B-7E5A9F50946A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4221B4C0-C2A6-4AB2-8B4B-7E5A9F50946A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4221B4C0-C2A6-4AB2-8B4B-7E5A9F50946A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D73E1D3-FD42-4734-BEA2-48AB59A03F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D73E1D3-FD42-4734-BEA2-48AB59A03F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D73E1D3-FD42-4734-BEA2-48AB59A03F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D73E1D3-FD42-4734-BEA2-48AB59A03F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43642B84-1040-4BB7-B950-CD911E5D3118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43642B84-1040-4BB7-B950-CD911E5D3118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43642B84-1040-4BB7-B950-CD911E5D3118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43642B84-1040-4BB7-B950-CD911E5D3118}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0982067E-550D-4307-A8C3-F71037B90B06}
+	EndGlobalSection
+EndGlobal

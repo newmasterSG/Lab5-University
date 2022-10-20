@@ -1,0 +1,14 @@
+E:\University\Laboratory5OOP\Printer\bin\Debug\netcoreapp3.1\Printer.exe
+E:\University\Laboratory5OOP\Printer\bin\Debug\netcoreapp3.1\Printer.deps.json
+E:\University\Laboratory5OOP\Printer\bin\Debug\netcoreapp3.1\Printer.runtimeconfig.json
+E:\University\Laboratory5OOP\Printer\bin\Debug\netcoreapp3.1\Printer.runtimeconfig.dev.json
+E:\University\Laboratory5OOP\Printer\bin\Debug\netcoreapp3.1\Printer.dll
+E:\University\Laboratory5OOP\Printer\bin\Debug\netcoreapp3.1\Printer.pdb
+E:\University\Laboratory5OOP\Printer\obj\Debug\netcoreapp3.1\Printer.csproj.AssemblyReference.cache
+E:\University\Laboratory5OOP\Printer\obj\Debug\netcoreapp3.1\Printer.GeneratedMSBuildEditorConfig.editorconfig
+E:\University\Laboratory5OOP\Printer\obj\Debug\netcoreapp3.1\Printer.AssemblyInfoInputs.cache
+E:\University\Laboratory5OOP\Printer\obj\Debug\netcoreapp3.1\Printer.AssemblyInfo.cs
+E:\University\Laboratory5OOP\Printer\obj\Debug\netcoreapp3.1\Printer.csproj.CoreCompileInputs.cache
+E:\University\Laboratory5OOP\Printer\obj\Debug\netcoreapp3.1\Printer.dll
+E:\University\Laboratory5OOP\Printer\obj\Debug\netcoreapp3.1\Printer.pdb
+E:\University\Laboratory5OOP\Printer\obj\Debug\netcoreapp3.1\Printer.genruntimeconfig.cache
