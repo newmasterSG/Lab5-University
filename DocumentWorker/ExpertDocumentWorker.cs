@@ -39,35 +39,3 @@ namespace DocumentWorker
         }
     }
 }
-
-/*
- using (var salsa = new Salsa20.Salsa20())
-            {
-                using (var fstream_out = new FileStream(filePath, FileMode.Truncate, FileAccess.ReadWrite, FileShare.Write))
-                {
-                    salsa.Key = key;
-                    salsa.IV = iv;
-                    using (var cstream = new CryptoStream(fstream_out, salsa.CreateEncryptor(), CryptoStreamMode.Write))
-                    {
-                        var bytes = File.ReadAllBytes(filePath);
-                        cstream.Write(bytes, 0, bytes.Lenght);
-                    }
-                }
-            } 
- */
-
-/*
- var bytes = File.ReadAllBytes(filePath);
-using (var salsa = new Salsa20.Salsa20())
-{
-    using (var fstream_out = new FileStream(filePath, FileMode.Truncate, FileAccess.Write))
-    {
-        salsa.Key = key;
-        salsa.IV = iv;
-        using (var cstream = new CryptoStream(fstream_out, salsa.CreateEncryptor(), CryptoStreamMode.Write))
-        {
-            cstream.Write(bytes, 0, bytes.Lenght);
-        }
-    }
-}
- */

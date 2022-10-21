@@ -13,7 +13,7 @@ namespace DocumentWorker
             get;
             set;
         }
-        public virtual  void OpenDocument()
+        public virtual void OpenDocument()
         {
             using (StreamReader streamReader = new StreamReader(Path))
             {
